@@ -1,7 +1,48 @@
-h1{
-color: red;
-font-family: 'Poppins',sans-serif;
+:root{
+  ---branding-color: #6C63FF;
+  ---primary-color:#F9F7FE;
+  ---secondary-color:#272142;
+  ---primary-font-family:'Poppins',sans-serif;
+  ---secondary-font-family:'Playfair Display', serif;
 }
-p{
-  font-family: 'Playfair Display', serif;;
+body{
+  font-family: var(---primary-font-family);
+}
+h1{
+font-family: var(---secondary-font-family);
+color: #000000;
+font-size: 96px;
+font-weight: bold;
+line-height: 128px;
+}
+h2, p{
+  color: var(---secondary-color) ;
+}
+
+.hero p{
+ font-weight: bold;
+ font-size: 36px;
+ margin: 0;
+
+}
+.hero h2{
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 2;
+}
+.button-radius{
+  color: #FFFFFF;
+  background-color: var(---branding-color) ;
+  text-decoration: none;
+  font-weight: medium;
+  font-size: 18px;
+  padding: 18px 30px;
+  border-radius: 4px;
+  line-height: 27px;
+}
+.hero{
+  text-align: center;
+  padding: 160px 20px;
+  background-color:var(---primary-color) ;
+  
 }
