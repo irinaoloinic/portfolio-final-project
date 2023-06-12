@@ -50,6 +50,12 @@ img{
   background-color:var(---primary-color) ;
   
 }
+.about-me-page{
+   padding: 160px 20px;
+}
+.about-me-content{
+  margin: 30px;
+}
 .featured-projects{
   font-family: var(---primary-font-family);
   font-weight: normal;
@@ -78,10 +84,10 @@ img{
   font-family: var(---primary-font-family);
   font-size: 16px;
   font-weight: medium;
-color: var(---branding-color);
-background-color: white;
-border-color: 1px var(---branding-color);
-padding: 15px 20px;
+  color: var(---branding-color);
+  background-color: white;
+  border-color: 1px var(---branding-color);
+  padding: 15px 20px;
 }
 .project-button:hover{
   background-color: white;
@@ -90,6 +96,18 @@ padding: 15px 20px;
 }
 .project-description{
   padding: 120px 60px;
+}
+.about-me-page h1{
+  font-family: var(---secondary-font-family);
+  font-size: 64px;
+  font-weight: bold;
+  color: #000000;
+  line-height: 80px;
+}
+.about-me-page h2{
+  font-family: var(---primary-font-family);
+  color: var(---primary-font-family);
+  font-weight: bold;
 }
 @media (max-width:960px) {
  
@@ -117,4 +135,11 @@ padding: 15px 20px;
     margin: 20px 20px;
     font-size: 15px;
   }
+  .about-me-page{
+    text-align: center;
+  }
+}
+.my-photo{
+  border-radius: 10px;
+  max-width: 560px;
 }
