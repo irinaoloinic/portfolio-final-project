@@ -155,7 +155,26 @@ nav a{
 nav a:hover, nav li.active a{
   color: var(---branding-color);
 }
+footer{
+  margin: 60px 0;
+}
+footer.email-link{
+text-align: center;
+font-family: var(---primary-font-family); 
+font-size: 24px;
+font-weight: normal;
+text-decoration: none;
+color: black;
+}
 
+footer.email-link:hover{
+  color: var(---branding-color);
+}
+footer.social-links a{
+margin: 0 20px;
+color: var(---branding-color);
+background-color: var(---secondary-color);
+}
 @media (max-width:960px) {
  
   h1{
