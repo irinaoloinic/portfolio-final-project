@@ -196,4 +196,11 @@ nav a:hover, nav li.active a{
   margin-top: 50px;
  
 }
+nav a{
+  font-size: 14px;
+  margin-left: 0px;
+}
+nav li{
+  text-align: center;
+}
 }
