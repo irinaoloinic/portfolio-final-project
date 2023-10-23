@@ -29,6 +29,7 @@ img{
 }
 .logo{
   max-height: 150px;
+  max-width: 200px;
 }
 .my-photo{
   max-width: 560px;
