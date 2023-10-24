@@ -25,7 +25,7 @@ h4{
 }
 img{
   max-width: 560px;
-  padding: 0;
+  padding: 10px 10px;
 }
 .logo{
   max-height: 150px;
@@ -238,6 +238,15 @@ footer.contact-box p{
 }
 .email-link{
   font-size: 18px;
+}
+.logo{
+  max-height: 150px;
+  max-width: 100px;
+  
+}
+
+img{
+  padding: 0;
 }
 nav a{
   font-size: 14px;
